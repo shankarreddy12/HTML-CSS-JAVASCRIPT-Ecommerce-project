@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Ecommerce Application using API</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <h1>Ecommerce</h1>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="./product.html">Products</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contactus.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="navbarButtons">
+            <a href="./login.html"><img src="./assets/box-arrow-in-right.svg" alt="">Login</a>
+            <a href="./registerpage.html"><img src="./assets/person-fill-add.svg" alt="">Register</a>
+            <a href="./cart.html" id="cart-icon"><img src="./assets/cart3.svg" alt="">Cart (0)</a>
+        </div>
+    </header>
+
+    <!-- section - banner image -->
+    <section class="banner">
+        <img src="./assets/main.png.jpg" alt="New Season Arrivals" class="banner-image">
+        <div class="banner-content">
+            <h2>New Season Arrivals</h2>
+            <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content
+                is a little bit longer.</p>
+        </div>
+    </section>
+
+    <!-- latest-products -->
+    <section class="latest-products">
+        <h2>Latest Products</h2>
+        <hr>
+
+        <div class="filter-buttons">
+            <button class="filter-btn" data-category="all">All</button>
+            <button class="filter-btn" data-category="men's clothing">Men's Clothing</button>
+            <button class="filter-btn" data-category="women's clothing">Women's Clothing</button>
+            <button class="filter-btn" data-category="jewelery">Jewelery</button>
+            <button class="filter-btn" data-category="electronics">Electronics</button>
+        </div>
+
+        <div class="product-grid" id="product-grid"></div>
+    </section>
+
+    <!-- End credits - my name -->
+    <p class="myNameatBottom">Made with ❤️ by <span class="underlined"><a href="#">shankar bandi</a></span></p>
+
+    <script src="./assets/app.js"></script>
+    <script src="./assets/cart.js"></script>
+</body>
+
+</html>
+
+<!-- index.html -->
